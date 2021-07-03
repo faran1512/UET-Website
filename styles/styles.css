@@ -461,3 +461,135 @@ td {
     grid-row: 1 / span 1;
     grid-column: 4 / span 1;
 }
+
+.events-news-container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.footer1-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 90%;
+}
+
+.col-heading {
+    color:  rgb(55, 99, 193);
+    font-weight: 400;
+    padding-left: 0.9em;   
+}
+
+.footer1-container li {
+    padding-bottom: 0.7em;
+    color: rgb(2, 66, 163);
+    font-size: 0.9em;
+    margin-left: 0;
+    transition: margin-left 0.7s;
+}
+
+.footer1-container ul {
+    list-style-type: none;
+}
+
+.footer1-container li:hover {
+    margin-left: 1.000000000000001em;
+}
+
+.grey-border {
+    border: 0.8px solid rgb(180, 180, 180);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col3 p {
+    color: rgb(180, 180, 180);
+    font-size: 0.9em;
+    padding-top: 1em;
+}
+
+.col3 input {
+    width: 17em;
+    height: 2.5em;
+    margin: 1.6em;
+    margin-right: 0;
+    display: inline-block;
+    color: rgb(150, 150, 150);
+}
+
+.arrow {
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+.footer1-container li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(220, 220, 220); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.social {
+    padding-left: 5em;
+    background-color: rgb(245, 245, 245);
+}
+
+.social p {
+    display: inline-block;
+    padding: 1em 0px 1em 1em;
+}
+
+.social-icon {
+    color: rgb(100, 100, 100);
+    padding: 1em 0px 1em 1em;
+}
+
+.social-icon:hover {
+    color: rgb(37, 37, 37);
+}
+
+.footer2-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 90%;
+    padding: 2em 0px;
+}
+
+.footer2-container a, p, h2 {
+    color: white;
+}
+
+.footer2-container span {
+    font-weight: 600;
+}
+
+.footer2-overall {
+    background-color: rgb(24, 88, 182);
+}
+
+.footer2-container ul {
+    list-style-type: none;
+}
+
+.footer2-container li::before {
+    content: "\2022";
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer2-container a {
+    padding-bottom: 0.5em;
+    margin-left: 0;
+    transition: margin-left 0.6s;
+}
+
+.footer2-container a:hover {
+    margin-left: 0.5em;
+}
